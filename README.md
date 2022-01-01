@@ -91,11 +91,12 @@ For classification problems that are skewed in their classification distribution
 
 We will be using all 4 metrics to make sure our model does well. For all 4 metrics whose values can range from 0 to 1, having a score as close to 1 as possible is a good indicator of how well our model is doing.
 
-## Step 5: Conclusion
-One of the major advantages that Naive Bayes has over other classification algorithms is its ability to handle an extremely large number of features. In our case, each word is treated as a feature and there are thousands of different words. Also, it performs well even with the presence of irrelevant features and is relatively unaffected by them. The other major advantage it has is its relative simplicity. Naive Bayes' works well right out of the box and tuning it's parameters is rarely ever necessary, except usually in cases where the distribution of the data is known. It rarely ever overfits the data. Another important advantage is that its model training and prediction times are very fast for the amount of data it can handle. All in all, Naive Bayes' really is a gem of an algorithm!
-
 ## Step 6: Using Streamlit and Docker
 as now we have build a model for the spam predictor now we will use streamlit to run this as an app on localthost using streamlit run app.py command in the terminal and then we will create a Dockerfile and build a dockerimage locally..after the successfull building of docker image run it on localhost.
 
 ## Step 7: Deploying the docker image on Azure as A web service
 for the final step we created a container registry on the azure pushed our local image to the container registry and then using web app service from the azure deployed our docker image and created a running cloud based web app for it.
+
+## Conclusion:
+One of the major advantages that Naive Bayes has over other classification algorithms is its ability to handle an extremely large number of features. In our case, each word is treated as a feature and there are thousands of different words. Also, it performs well even with the presence of irrelevant features and is relatively unaffected by them. The other major advantage it has is its relative simplicity. Naive Bayes' works well right out of the box and tuning it's parameters is rarely ever necessary, except usually in cases where the distribution of the data is known. It rarely ever overfits the data. Another important advantage is that its model training and prediction times are very fast for the amount of data it can handle. All in all, Naive Bayes' really is a gem of an algorithm!
+
