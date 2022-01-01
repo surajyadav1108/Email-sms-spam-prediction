@@ -91,10 +91,10 @@ For classification problems that are skewed in their classification distribution
 
 We will be using all 4 metrics to make sure our model does well. For all 4 metrics whose values can range from 0 to 1, having a score as close to 1 as possible is a good indicator of how well our model is doing.
 
-## Step 6: Using Streamlit and Docker
+## Step 5: Using Streamlit and Docker
 as now we have build a model for the spam predictor now we will use streamlit to run this as an app on localthost using streamlit run app.py command in the terminal and then we will create a Dockerfile and build a dockerimage locally..after the successfull building of docker image run it on localhost.
 
-## Step 7: Deploying the docker image on Azure as A web service
+## Step 6: Deploying the docker image on Azure as A web service
 for the final step we created a container registry on the azure pushed our local image to the container registry and then using web app service from the azure deployed our docker image and created a running cloud based web app for it.
 
 ## Conclusion:
