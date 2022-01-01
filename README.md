@@ -1,4 +1,4 @@
-# Email-sms-spam-prediction
+# Email/sms-spam-prediction
 An SMS/messages spam detection web application.
 # SMS-spam-Detection
 
